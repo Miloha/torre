@@ -48,6 +48,8 @@ class Login extends CI_Controller
 
 				}
 
+
+
 			$this->creap($i,$x,$y);
 
 
@@ -69,6 +71,10 @@ class Login extends CI_Controller
 
 
 	public function creap($j,$x,$y){
+
+		/*Construyó los palíndromos posible para números decimale y compruebo si son palíndromos en binario,
+		 si lo son, los agrego a la respuesta 
+		*/
 
 		
 		if( $j % 2 == 0 ){
